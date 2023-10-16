@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="vandy.mooc.functional.BardPlayAnalyzerTests" tests="9" skipped="0" failures="2" errors="0" timestamp="2023-10-16T20:40:15" hostname="SANTIAGO-PC" time="2.141">
+  <properties/>
+  <testcase name="testActiveObjectConstructor" classname="vandy.mooc.functional.BardPlayAnalyzerTests" time="0.037">
+    <failure message="java.lang.AssertionError" type="java.lang.AssertionError">java.lang.AssertionError
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertTrue(Assert.java:53)
+	at vandy.mooc.functional.BardPlayAnalyzerTests.testActiveObjectConstructor(BardPlayAnalyzerTests.java:31)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:299)
+	at org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:293)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.lang.Thread.run(Thread.java:1589)
+</failure>
+  </testcase>
+  <testcase name="testActiveObjectMakeThreadClosure" classname="vandy.mooc.functional.BardPlayAnalyzerTests" time="0.01">
+    <failure message="java.lang.AssertionError" type="java.lang.AssertionError">java.lang.AssertionError
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertTrue(Assert.java:53)
+	at vandy.mooc.functional.BardPlayAnalyzerTests.testActiveObjectMakeThreadClosure(BardPlayAnalyzerTests.java:50)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:299)
+	at org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:293)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.lang.Thread.run(Thread.java:1589)
+</failure>
+  </testcase>
+  <testcase name="testBardAnalyzerStart" classname="vandy.mooc.functional.BardPlayAnalyzerTests" time="0.018"/>
+  <testcase name="testBardAnalyzerRunAndReturnSortedResults" classname="vandy.mooc.functional.BardPlayAnalyzerTests" time="1.369"/>
+  <testcase name="testBardAnalyzerStartActiveObjects" classname="vandy.mooc.functional.BardPlayAnalyzerTests" time="0.666"/>
+  <testcase name="testBardAnalyzerMakeActiveObjects" classname="vandy.mooc.functional.BardPlayAnalyzerTests" time="0.005"/>
+  <testcase name="testBardAnalyzerProcessInput" classname="vandy.mooc.functional.BardPlayAnalyzerTests" time="0.002"/>
+  <testcase name="testBardAnalyzerProcessActiveObjects" classname="vandy.mooc.functional.BardPlayAnalyzerTests" time="0.007"/>
+  <testcase name="testMakeActiveObjects" classname="vandy.mooc.functional.BardPlayAnalyzerTests" time="0.021"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
